@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+body {
+    font-family:  Gotham,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    background-color: #1c1c1c;
+    font-size: 1rem;
+    color: #686868;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+h1 {
+    color: #8f7033;
+    margin-left: 5%;
+}
+
+p {
+    color: #8f7033;
+    margin-left: 15%;
+}
+
+input {
+    margin-right: 1rem;
+}
+
+input, select, textarea {
+    border-radius: 5px;
+}
+
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1rem;
+}
+
+.grupo label {
+    margin-right: 1rem;
+}
+
+.campo {
+    margin-bottom: 1rem;
+}
+
+.campo label {
+    margin-bottom: 0.2rem;
+    color: #686868;
+    display: block;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2rem;
+    border: 1px solid #8f7033;
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1rem;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #E0E0F8
+}
+
+.espace {
+    padding-bottom: 0.5rem;
+}
+
+.btn {
+    border: 2px solid #8f7033;
+    background: #1c1c1c;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #E0E0F8;
+    line-height: 20px;
+    letter-spacing: .1em; 
+}
+
+.btn:hover {
+    background: #8f7033;
+}
+
+
+
